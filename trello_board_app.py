@@ -181,7 +181,7 @@ def main():
     if css_content:
         st.markdown(f"<style>{css_content}</style>", unsafe_allow_html=True)
 
-    st.title("🔍 Trello Board Insights Generator")
+    st.title("🔍 Sprint Report Insights Generator")
 
     # Credential inputs and board selection
     with st.sidebar:
