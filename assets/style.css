@@ -1,0 +1,50 @@
+/* Main button styles */
+div.stButton > button {
+    font-size: 20px;
+    font-weight: bold;
+    height: 3em;
+    width: 30%;
+    background-color: #f1720b;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Hover effect for buttons */
+div.stButton > button:hover {
+    background-color: #E64A19;
+    color: white;
+}
+
+/* You can add additional custom styles below */
+/* For example, to customize info boxes */
+div.stInfo {
+    border-left-color: #4CAF50;
+    background-color: #E8F5E9;
+}
+
+/* Custom header styles */
+h1 {
+    color: #0288D1;
+    font-family: 'Arial', sans-serif;
+}
+
+h2, h3 {
+    color: #0288D1;
+}
+
+/* Other potential custom styles you might want to add */
+/* 
+.sidebar .sidebar-content {
+    background-color: #f5f5f5;
+}
+
+.stSuccess {
+    background-color: #D4EDDA;
+    color: #155724;
+    padding: 15px;
+    border-radius: 5px;
+}
+*/
