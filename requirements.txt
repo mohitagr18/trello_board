@@ -3,3 +3,5 @@ crewai[tools]
 python-dotenv
 streamlit
 ipykernel
+pysqlite3-binary>=0.5.1
+databricks-sdk
