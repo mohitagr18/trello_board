@@ -1,0 +1,84 @@
+data_collection:
+  description: >
+    Create an initial understanding of the project, its main
+    features and the team working on it.
+    Use the Trello Data Fetcher tool to gather data from the
+    Trello board.
+  expected_output: >
+    A full blown report on the project, including its main
+    features, the team working on it,
+    and any other relevant information from the Trello board.
+
+data_analysis:
+  description: >
+    Analyze the Trello data to identify blockers, delays, and
+    overall progress.
+  expected_output: >
+    A summary of the analysis highlighting key issues, blockers,
+    delays, and progress.
+
+report_generation:
+  description: >
+    Compile a comprehensive sprint report based on the analysis of the project data.
+    The report should include:
+    - **Executive Summary** (brief overview of key findings)
+    - **Sprint Overview** (goals, objectives)
+    - **Task Summary**
+        - **In-Progress Tasks** (with current status)
+        - **Completed Tasks** (with completion dates)
+        - **Delayed Tasks** (with reasons and impact)
+    - **Identified Issues and Blockers** (with severity and proposed solutions)
+    - **Team Performance Overview** (highlights and areas for improvement)
+    - **Action Items and Recommendations** (clear, actionable steps)
+
+    The report must be formatted in markdown, with clear headings, subheadings, and bullet points for easy readability.
+    Focus on providing a concise and organized report suitable for executive review.
+  expected_output: >
+    # Sprint Report - [Project Name]
+
+    ## Executive Summary
+
+    [Brief overview of key findings and critical issues.]
+
+    ## Sprint Overview
+
+    [Summary of sprint goals and objectives.]
+
+    ## Task Summary
+
+    ### In-Progress Tasks
+
+    - [Task Name]: [Current Status]
+    - [Task Name]: [Current Status]
+    ...
+
+    ### Completed Tasks
+
+    - [Task Name]: (Completed: [Date])
+    - [Task Name]: (Completed: [Date])
+    ...
+
+    ### Delayed Tasks
+
+    - [Task Name]: Delayed due to [Reason]. Impact: [Impact].
+    - [Task Name]: Delayed due to [Reason]. Impact: [Impact].
+    ...
+
+    ## Identified Issues and Blockers
+
+    - **[Issue Name] ([Severity]):** [Description]. Proposed Solution: [Solution].
+    - **[Issue Name] ([Severity]):** [Description]. Proposed Solution: [Solution].
+    ...
+
+    ## Team Performance Overview
+
+    [Highlights and areas for improvement.]
+
+    ## Action Items and Recommendations
+
+    - [Action Item]: [Description].
+    - [Action Item]: [Description].
+    ...
+
+    Don't enclose the markdown in any block
+    '```' or '```markdown' or any other code block.
